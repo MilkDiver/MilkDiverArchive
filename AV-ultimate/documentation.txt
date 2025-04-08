@@ -1,0 +1,25 @@
+II. Tell us about the 2 Audio Effect nodes you added to the audio routing graph.
+    For my 2 audio effects, I instead went with three! Leveled distortion, a treble filter, and a bass filter!
+    -
+III. Tell us your Sprite's class name, what it looks like/what it does in the visualization
+    The Sprite class is simply named sprite! It draws a right-facing triangle that moves across the canvas,
+     changing speeds based on the frequency of the audio + a random variable for some variation.
+     It's supposed to resemble spaceships! 
+
+IV. Tell us what app data you put in your av-data.json file
+    Within my av-data.json file, I have this data stored:
+        - HTML Title
+        - Audio File Locations
+        - Audio File Names
+        - Startup Parameters
+
+V. Tell us how you improved the aesthetics of the app over the AV HW:
+be sure to give yourself a grade for this section, between 0% and 15%
+0% would be if there was not a meaningful improvement over the AV HW
+15% would be substantial improvement over the AV HW - a "wow" (portfolio-worthy) experience
+and everything in between
+
+    I decided to go for a more galaxy-inspired audio visualizer! While the basic structure is the same, I've set up some random generation on the sprites,
+    as well as an overhaul on the color palettes across the board! With a custom font, background color palette, and other small details, I tried to keep all the core functionality,
+    while giving the whole visuals a revamp!
+    I'd give myself a 12% because I didn't truly DO all that much fun stuff to the AV that wasn't necessary to begin with, but I think my implementation came out quite good!

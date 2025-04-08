@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title id="title-Main"></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="./styles/default-styles.css" type="text/css" rel="stylesheet" />
+  <script src="./dist/bundle.js"c></script>
+</head>
+<body>
+<main>
+  <canvas width="800" height="400"></canvas>
+  <div id="controls">
+    <section>
+      <button id="btn-play" data-playing="no"></button>
+      <button id="btn-fs">Full Screen</button>
+		
+      <label>Track: 
+        <select id="trackSelect">
+        </select>
+      </label>
+
+      <span><input type="checkbox" id="cb-waveform"><label for="cb-waveform">Enable Waveform</label></span>
+    </section>
+		
+    <section>
+      Volume: <input type="range" id="slider-volume" min="0" max="2" value="1" step="0.01">
+      <span id="volumeLabel">???</span>
+      <p>
+        Distortion: <input type="range" id="slider-distortion" min="0.01" max="2" value="1" step="0.02">
+        <span id="distortionLabel">???</span>
+      </p>
+      <p>
+        <span><input type="checkbox" id="cb-highshelf"><label for="cb-highshelf">Treble Filter</label></span>
+        <span><input type="checkbox" id="cb-lowshelf"><label for="cb-lowshelf">Bass Filter</label></span>
+      </p>
+    </section>
+
+    <section>
+      <span><input type="checkbox" id="cb-gradient"><label for="cb-gradient">Show Gradient</label></span>
+      <span><input type="checkbox" id="cb-bars"><label for="cb-bars">Show Bars</label></span>
+      <span><input type="checkbox" id="cb-circles"><label for="cb-circles">Show Circles</label></span>
+      <span><input type="checkbox" id="cb-ships"><label for="cb-ships">Show Spaceships</label></span>
+      <span><input type="checkbox" id="cb-noise"><label for="cb-noise">Show Noise</label></span>
+      <span><input type="checkbox" id="cb-invert"><label for="cb-invert">Invert Colors</label></span>
+      <span><input type="checkbox" id="cb-emboss"><label for="cb-emboss">Emboss Effect</label></span>
+    </section>
+    
+  </div>
+</main>
+</body>
+</html>
