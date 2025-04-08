@@ -1,6 +1,10 @@
+*{
+  font-family: "Exo 2", sans serif;
+}
+
 body {
-    background: #eeeeee;
-    font-family: tahoma, verdana, sans serif;
+    background: #130049;
+    color:#fafafa;
   }
   
   canvas {
@@ -25,7 +29,7 @@ body {
   
   #playButton{
     font-size: 1.2rem;
-    width: 6rem;
+    width: 8rem;
   }
   
   button[data-playing="yes"]:after{
