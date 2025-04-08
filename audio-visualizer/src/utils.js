@@ -1,10 +1,3 @@
-// utils.js
-// Desc.: Creates miscellaneous utility functions for the audio visualizer.
-// Written by: Jack Moyen
-// Last Updated: March 2025
-// 
-
-
 const makeColor = (red, green, blue, alpha = 1) => {
     return `rgba(${red},${green},${blue},${alpha})`;
   };
